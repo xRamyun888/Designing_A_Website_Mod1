@@ -38,4 +38,27 @@
     text-align: center;
 }
 
+#image-link {
+    position: absolute;
+    top: 95%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-size: 16px;
+    text-align: center;
+}
+
+#banner {
+    background-color: lightblue;
+    padding: 2%;
+    margin-top: -1%;
+}
+
+#banner h2 {
+    text-align: center;
+}
+
+#banner p {
+    text-align: justify;
+    margin: 0% 5% 0% 5%;
+}
 
