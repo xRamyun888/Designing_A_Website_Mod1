@@ -48,7 +48,8 @@
 }
 
 #banner {
-    background-color: lightblue;
+    
+    background-color: rgb(254, 221, 216);
     padding: 2%;
     margin-top: -1%;
 }
@@ -64,10 +65,40 @@
 }
 
 #flex-container {
-    display: flex; 
+    display: flex;
+    flex-wrap: wrap; 
 }
 
 #flex-container img {
-    min-width: 50%;
+    width: 50%;
+    height: 600px;
 }
 
+#flex-container div {
+    width: 50%;
+    height: 600px;
+    text-align: center;
+}
+
+#flex-container div > p {
+    padding: 5% 10% 5% 10%;
+    text-align: justify;
+    font-size: 18px;
+}
+
+#flex-container div > h3 {
+    padding-top: 5%;
+}
+
+#definition {
+    background-color: rgb(207, 227, 226);
+}
+
+#things {
+    background-color: rgb(215, 226, 232);
+}
+
+#footer {
+    text-align: center;
+    font-size: 18px;
+}
